@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Catalog Products - Ecommerce</title>
+</head>
+<body class="m-0 box-border flex flex-col bg-white overflow-x-hidden">
+    <header class="flex justify-between items-center px-40 py-9 w-full">
+        <h1 class="text-2xl font-bold">CATALOG PRODUCTS</h1>
+        <button class="flex cursor-pointer" id="openCartButton">
+            <img src="./img/shopping_cart_40dp_000000.svg" alt="" class="w-12 p-0">
+            <div class="bg-orange-900 rounded-full w-8 h-8 flex justify-center items-center text-white">
+                <span class="numberItems">0</span>
+            </div>
+        </button>
+    </header>
+    <main class="px-40 mt-8 flex justify-between gap-20 flex-wrap">
+        <article class="flex flex-col items-center w-1/5 p-4 bg-orange-50 rounded-[50px] shadow-2xl">
+            <img src="./img/backpack.png" alt="" class="image h-48">
+            <h2 class="title text-2xl font-bold text-center h-12 mb-10">Premium Leather Backpack</h2>
+            <p class="price text-3xl font-normal h-12 mb-4">179€</p>
+            <button class="cartButton h-12 bg-orange-900 text-slate-50 py-2 px-10 rounded-full cursor-pointer hover:bg-slate-50 hover:text-orange-900 hover:border-orange-900 hover:border-2">Add to Cart</button>
+        </article>
+        <article class="flex flex-col items-center w-1/5 p-4 bg-orange-50 rounded-[50px] shadow-2xl">
+            <img src="./img/camera.png" alt="" class="image h-48">
+            <h2 class="title text-2xl font-bold text-center h-12 mb-10">Professional DSLR Camera</h2>
+            <p class="price text-3xl font-normal h-12 mb-4">1.499€</p>
+            <button class="cartButton h-12 bg-orange-900 text-slate-50 py-2 px-10 rounded-full cursor-pointer hover:bg-slate-50 hover:text-orange-900 hover:border-orange-900 hover:border-2">Add to Cart</button>
+        </article>
+        <article class="flex flex-col items-center w-1/5 p-4 bg-orange-50 rounded-[50px] shadow-2xl">
+            <img src="./img/coffee_machine.png" alt="" class="image h-48">
+            <h2 class="title text-2xl font-bold text-center h-12 mb-10">Modern Digital Coffee Maker</h2>
+            <p class="price text-3xl font-normal h-12 mb-4">149€</p>
+            <button class="cartButton h-12 bg-orange-900 text-slate-50 py-2 px-10 rounded-full cursor-pointer hover:bg-slate-50 hover:text-orange-900 hover:border-orange-900 hover:border-2">Add to Cart</button>
+        </article>
+        <article class="flex flex-col items-center w-1/5 p-4 bg-orange-50 rounded-[50px] shadow-2xl">
+            <img src="./img/computer.png" alt="" class="image h-48">
+            <h2 class="title text-2xl font-bold text-center h-12 mb-10">Slim Metallic Laptop</h2>
+            <p class="price text-3xl font-normal h-12 mb-4">1.199€</p>
+            <button class="cartButton h-12 bg-orange-900 text-slate-50 py-2 px-10 rounded-full cursor-pointer hover:bg-slate-50 hover:text-orange-900 hover:border-orange-900 hover:border-2">Add to Cart</button>
+        </article>
+        <article class="flex flex-col items-center w-1/5 p-4 bg-orange-50 rounded-[50px] shadow-2xl">
+            <img src="./img/headphones.png" alt="" class="image h-48">
+            <h2 class="title text-2xl font-bold text-center h-12 mb-10">Wireless Noise-Canceling Headphones</h2>
+            <p class="price text-3xl font-normal h-12 mb-4">299€</p>
+            <button class="cartButton h-12 bg-orange-900 text-slate-50 py-2 px-10 rounded-full cursor-pointer hover:bg-slate-50 hover:text-orange-900 hover:border-orange-900 hover:border-2">Add to Cart</button>
+        </article>
+        <article class="flex flex-col items-center w-1/5 p-4 bg-orange-50 rounded-[50px] shadow-2xl">
+            <img src="./img/lampara.png" alt="" class="image h-48">
+            <h2 class="title text-2xl font-bold text-center h-12 mb-10">Adjustable LED Desk Lamp</h2>
+            <p class="price text-3xl font-normal h-12 mb-4">79€</p>
+            <button class="cartButton h-12 bg-orange-900 text-slate-50 py-2 px-10 rounded-full cursor-pointer hover:bg-slate-50 hover:text-orange-900 hover:border-orange-900 hover:border-2">Add to Cart</button>
+        </article>
+        <article class="flex flex-col items-center w-1/5 p-4 bg-orange-50 rounded-[50px] shadow-2xl">
+            <img src="./img/mobile_phone.png" alt="" class="image h-48">
+            <h2 class="title text-2xl font-bold text-center h-12 mb-10">Sleek Ultra Smartphone</h2>
+            <p class="price text-3xl font-normal h-12 mb-4">899€</p>
+            <button class="cartButton h-12 bg-orange-900 text-slate-50 py-2 px-10 rounded-full cursor-pointer hover:bg-slate-50 hover:text-orange-900 hover:border-orange-900 hover:border-2">Add to Cart</button>
+        </article>
+        <article class="flex flex-col items-center w-1/5 p-4 bg-orange-50 rounded-[50px] shadow-2xl">
+            <img src="./img/shoes.png" alt="" class="image h-48">
+            <h2 class="title text-2xl font-bold text-center h-12 mb-10">Performance Running Shoes</h2>
+            <p class="price text-3xl font-normal h-12 mb-4">130€</p>
+            <button class="cartButton h-12 bg-orange-900 text-slate-50 py-2 px-10 rounded-full cursor-pointer hover:bg-slate-50 hover:text-orange-900 hover:border-orange-900 hover:border-2">Add to Cart</button>
+        </article>
+    </main>
+    <article class="cartWindowContainer absolute top-0 right-0 w-1/4 h-full bg-orange-50 z-10 hidden">
+        <section class="cartWindow px-8 py-5 flex flex-col items-center gap-4 relative">
+            <button class="close items-end text-4xl cursor-pointer absolute top-5 right-8"><img src="./img/close_40dp_000000.svg" alt="" class="w-12"></button>
+            <h3 class="text-2xl font-bold mt-14">MY SHOPPING CART</h3>
+            <section class="itemInfo w-full flex flex-col gap-4">
+                
+            </section>
+            <!-- <div>
+                <p class="text-2xl font-semibold">Total Cost: <span></span></p>
+            </div> -->
+            <button class="bg-orange-900 text-white py-2 px-20 rounded-full cursor-pointer hover:bg-slate-50 hover:text-orange-900 hover:border-orange-900 hover:border-2">BUY</button>
+        </section>
+    </article>
+</body>
+</html>
